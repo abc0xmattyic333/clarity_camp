@@ -51,6 +51,6 @@ To get started learning Clarity, here are several resources 🌱 that I have fou
 
 I am excited to be here, I hope you are too❗️🫡
 For the next 1️⃣0️⃣0️⃣ days I plan on working on learning Clarity. 
-I will document my journey 🧭 daily. I plan to spend about 8-10hrs per day to learning Clarity. ⛓️
+I will document my journey 🧭 daily. I plan to spend about 8-10hrs per day learning Clarity. ⛓️
 
 See you on the other side 🛜 🌐...✌🏻
