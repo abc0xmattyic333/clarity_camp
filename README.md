@@ -1,5 +1,7 @@
 # Clarity Camp | Write ✍🏻 Smart Contracts for ₿itcoin 🪙
 
+![Bitcoin & Stacks](/assets/bitcoin_stacks.png)
+
 👋🏻 Hello, and welcome❗️ My name is abc0xmattyic333 🙋🏼‍♂️.
 
 This repository showcases my journey 🧭 into Clarity. 
@@ -53,4 +55,4 @@ I am excited to be here, I hope you are too❗️🫡
 For the next 1️⃣0️⃣0️⃣ days I plan on working on learning Clarity. 
 I will document my journey 🧭 daily. I plan to spend about 8-10hrs per day learning Clarity. ⛓️
 
-See you on the other side 🛜 🌐...✌🏻
+See you on the other side 🛜 🌐...✌🏻🙂
