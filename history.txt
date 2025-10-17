@@ -4,3 +4,10 @@ none
 (merge\n	{id: 5, score: 10, username: "ClarityIsAwesome"}\n	{score: 20, winner: true}\n)
 (merge\n	{id: u6, score: 10}\n	{score: u50}\n)
 (ok true)
+(err u5)
+(unwrap-panic (ok true))
+block-height
+burn-block-height
+tx-sender
+(as-contract tx-sender)
+contract-caller

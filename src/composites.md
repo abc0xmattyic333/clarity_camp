@@ -86,3 +86,21 @@ Since the merge function returns an entirely new tuple, member types can in fact
 
 A response is a composite type that **wraps another type** just like an **optional**. What is different, however, is that a response type includes an indication of whether a specific action was successful or a failure. Responses have special effects when returned by public functions.
 
+Developers usually come up with their own rules to indicate error status. You could for example use unsigned integers to represent a specific error code.
+
+```
+(err u5) ;; something went wrong
+```
+
+There are **no explicit rules** on which types you should wrap for your responses.
+
+Standards are currently being proposed and we be introduced to **Stacks Improvements Proposals (SIPs)**.
+
+Responses can be **unwrapped** in the same way as **optional types**:
+
+```
+(unwrap-panic (ok true))
+;; true
+```
+
+**Private functions and read-only functions may also return a response type.**

@@ -1,0 +1,23 @@
+# Clarity Keywords 🔑
+
+Keywords are special terms that have an assigned meaning.
+
+We already have touched upon several keywords in previous lessons: true, false, and none.
+
+**block-height**
+
+Reflects the **current block height of the Stacks blockchain as an unsigned integer**. If we imagine the chain tip to be at height 0, we can read that number at any point in our code.
+
+**burn-block-height**
+
+Reflects the current block height of the **underlying burn blockchain (in this case ₿itcoin)** as an unsigned integer.
+
+**tx-sender**
+
+Contains the principal that sent the transaction. It can be used to validate the principal that is calling into a public function.
+
+**Note:** Note that it is possible for the **tx-sender** to be a contract principal if the special function **as-contract** was used to shift the sending context.
+
+**contract-caller**
+
+Contains the principal that called the function. It can be a standard principal or contract principal. If the contract is called via a signed transaction directly, then **tx-sender** and **contract-caller** will be equal. If the contract calls another contract in turn, then **contract-caller** will be equal to the previous contract in the chain.
