@@ -34,3 +34,22 @@ none
 
 Functions that might or might not return a value tend to return an **optional type**. As we saw in the previous section, both element-at and index-of returned a (some ...). It is because for some inputs, no matching value can be found. We can take the same list but this time try to retrieve an element at an index larger than the total size of the list. We see that it results in a **none** value.
 
+In order to access the value contained within an optional, you have to **unwrap** it.
+
+```
+(unwrap-panic (some u10))
+;; u10
+```
+
+Trying to unwrap a **none** will result in an error because there is nothing to unwrap. The ”panic” in unwrap-panic should give that away.
+
+```
+(unwrap-panic none)
+;; error
+```
+
+We will dive 🤿 into error handling and defining custom functions.
+
+# Tuples
+
+Tuples are records 🧾 that hold multiple values in named fields. Each field has its own type, making 
