@@ -35,6 +35,8 @@ To get started learning Clarity, here are several resources 🌱 that I have fou
 
 - [Stacks Developer YouTube Channel](https://www.youtube.com/@Stacks-Developers)
 
+- [Stacks Discord](https://discord.gg/uekCG9RF)
+
 - [Hiro](https://www.hiro.so/)
 
 - [Hiro YouTube Channel](https://www.youtube.com/c/HiroSystems)
@@ -42,6 +44,8 @@ To get started learning Clarity, here are several resources 🌱 that I have fou
 - [LearnWeb3 Stacks Developer Degree](https://learnweb3.io/degrees/stacks-developer-degree/)
 
 - [LearnWeb3 YouTube Channel](https://www.youtube.com/@LearnWeb3IO)
+
+- [LearnWeb3 Discord](https://discord.gg/DrtNnFGe)
 
 - [Clarity Github](https://github.com/clarity-lang)
 
