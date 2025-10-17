@@ -9,7 +9,7 @@
 
 # What is ₿itcoin❓
 
-![Bitcoin logo](/assets/bitcoin%20image.png)
+![Bitcoin logo](/assets/bitcoin.png)
 
 [Bitcoin](https://bitcoin.org/en/)
 
