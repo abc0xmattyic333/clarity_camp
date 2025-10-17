@@ -52,4 +52,37 @@ We will dive 🤿 into error handling and defining custom functions.
 
 # Tuples
 
-Tuples are records 🧾 that hold multiple values in named fields. Each field has its own type, making 
+Tuples are records 🧾 that hold multiple values in named fields. Each field has its own type, making it very useful to pass along structured data in one go. Tuples have their own **special formatting** and use curly braces.
+
+```
+{
+	id: u5, ;; a uint
+	username: "ClarityIsAwesome", ;; an ASCI string
+	address: 'ST1HTBVD3JG9C05J7HBJTHGR0GGW7KXW28M5JS8QE ;; and a principal
+}
+```
+
+The members inside tuples are unordered. You retrieve them by name and cannot iterate over them. A specific member can be read using the get function.
+
+```
+(get username { id: 5, username: "ClarityIsAwesome" } )
+;; ClarityIsAwesome
+```
+
+Tuples, like other values, are **immutable once defined**. It means that they cannot be changed. You can, however, merge two tuples together to form a new tuple. Merging is done from left to right and will overwrite values with the same key 🔑.
+
+```
+(merge
+	{id: 5, score: 10, username: "ClarityIsAwesome"}
+	{score: 20, winner: true}
+)
+```
+
+The above expression will result in a tuple with both keys 🔑 merged and the score set to **20**.
+
+Since the merge function returns an entirely new tuple, member types can in fact be overwritten by a later tuple in the sequence.
+
+### Responses
+
+A response is a composite type that **wraps another type** just like an **optional**. What is different, however, is that a response type includes an indication of whether a specific action was successful or a failure. Responses have special effects when returned by public functions.
+
