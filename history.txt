@@ -1,2 +1,4 @@
 #V2
 none
+(get username { id: 5, username: "ClarityIsAwesome" } )
+(merge\n	{id: 5, score: 10, username: "ClarityIsAwesome"}\n	{score: 20, winner: true}\n)
