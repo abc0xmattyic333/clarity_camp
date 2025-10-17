@@ -3,3 +3,4 @@ none
 (get username { id: 5, username: "ClarityIsAwesome" } )
 (merge\n	{id: 5, score: 10, username: "ClarityIsAwesome"}\n	{score: 20, winner: true}\n)
 (merge\n	{id: u6, score: 10}\n	{score: u50}\n)
+(ok true)
