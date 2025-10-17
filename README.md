@@ -60,3 +60,5 @@ For the next 1️⃣0️⃣0️⃣ days I plan on working on learning Clarity.
 I will document my journey 🧭 daily. I plan to spend about 8-10hrs per day learning Clarity. ⛓️
 
 See you on the other side 🛜 🌐...✌🏻🙂
+
+![₿itcoin L2](assets/bitcoin_l2.png)
