@@ -28,3 +28,11 @@ If one constant thus depends on another, they need to be defined in the right or
 ```
 
 A common pattern that you will come across is that of defining a constant to store the principal that deployed the contract:
+
+```
+(define-constant contract-owner tx-sender)
+
+(print contract-owner)
+```
+
+**Constants are also useful to give return values and errors meaningful names.**
