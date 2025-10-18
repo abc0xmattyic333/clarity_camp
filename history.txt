@@ -14,3 +14,4 @@ contract-caller
 (define-constant constant-name expression)
 (define-constant my-constant "This is a constant value")\n\n(define-constant my-second-constant\n	(concat my-constant " that depends on another")\n)
 (define-constant my-constant "This is a constant value")\n\n(define-constant my-second-constant\n	(concat my-constant " that depends on another")\n)\n\n(print my-constant)\n(print my-second-constant)
+(define-constant contract-owner tx-sender) (print contract-owner)
